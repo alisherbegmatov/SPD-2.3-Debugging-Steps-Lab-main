@@ -16,7 +16,7 @@ Exercise 2
 # No error message.
 
 # - What can you deduce about the cause of the error?
-# The error is caused by wrong if/else statement logic. If the fisrt 3 numbers are not consecutive, the code will always return False.
+# The error is caused by wrong if/else statement logic. If the first 3 numbers are not consecutive, the code will always return False.
 # To prove this assumption, we can call the function by passing the list [1, 2, 3, 5] and see that it returns True.
 
 # Connclusions:

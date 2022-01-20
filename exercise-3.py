@@ -7,7 +7,7 @@ Exercise 3
 # TODO: Gather information about the source of the error and paste your findings here. E.g.:
 
 # - What is the expected vs. the actual output?
-# The expected output is [1,2,3,5,6] and the actual output is error message.
+# The expected output is [1,2,3,5,6] and the actual output is an error message.
 
 # - What error message (if any) is there?
 # Traceback (most recent call last):
@@ -21,11 +21,11 @@ Exercise 3
 # Line 34, and line 26.
 
 # - What can you deduce about the cause of the error?
-# Finst we assign j to i-1 and we print out how j will change before and after the while loop.
+# First we assign j to i-1 and we print out how j will change before and after the while loop.
 # Also, we found out that j-=1 will make j to be negative and it will cause an index out of range error.
 
 # Conclusion:
-# We need to adjust the while loop to let j stop if it turns negative, so we change the while loop to: while j>=0 and key < arr[j] : 
+# We need to adjust the while loop to let j stop if it turns negative, so we change the while loop to while j>=0 and key < arr[j] : 
 
 # PART 2: State Assumptions
 

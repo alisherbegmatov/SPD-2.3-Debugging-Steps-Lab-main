@@ -7,7 +7,7 @@ Exercise 4
 # TODO: Gather information about the source of the error and paste your findings here. E.g.:
 
 # - What is the expected vs. the actual output?
-# The expected output should be 4, the actual output is error message.
+# The expected output should be 4, the actual output is an error message.
 
 # - What error message (if any) is there?
 # Traceback (most recent call last):
@@ -28,8 +28,8 @@ Exercise 4
 # Line 41, line 37, and line 22.
 
 # - What can you deduce about the cause of the error?
-# It seems that the recursion function stuck in an infinite loop, so we first print out the mid.
-# From the output of mid, we can see that is stays the same after the first iteration because we did not change the high or low variable when calling the new recursion function.
+# It seems that the recursion function is stuck in an infinite loop, so we first print out the mid.
+# From the output of mid, we can see that it stays the same after the first iteration because we did not change the high or low variable when calling the new recursion function.
 
 # Conclusion:
 # We need to change the recursion function to:
