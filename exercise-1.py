@@ -12,13 +12,13 @@ Exercise 1
 
 # Here is the stack trace we get from running the program:
 # Traceback (most recent call last):
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-1.py", line 31, in <module>
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-1.py", line 49, in <module>
 #     answer = find_largest_diff([5, 3, 1, 2, 6, 4])
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-1.py", line 23, in find_largest_diff
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-1.py", line 42, in find_largest_diff
 #     diff = abs(list_of_nums[i] - list_of_nums[i+1])
 
 # - What line number is causing the error?
-# Line 31, and line 23.
+# Line 49, and line 42.
 
 # - What can you deduce about the cause of the error?
 # The error is caused by the index out of range.

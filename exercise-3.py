@@ -11,14 +11,14 @@ Exercise 3
 
 # - What error message (if any) is there?
 # Traceback (most recent call last):
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-3.py", line 34, in <module>
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-3.py", line 50, in <module>
 #     answer = insertion_sort([5, 2, 3, 1, 6])
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-3.py", line 26, in insertion_sort
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-3.py", line 42, in insertion_sort
 #     while key < arr[j] : 
 # IndexError: list index out of range
 
 # - What line number is causing the error?
-# Line 34, and line 26.
+# Line 50, and line 42.
 
 # - What can you deduce about the cause of the error?
 # First we assign j to i-1 and we print out how j will change before and after the while loop.

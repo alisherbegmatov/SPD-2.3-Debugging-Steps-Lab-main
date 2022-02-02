@@ -11,21 +11,21 @@ Exercise 4
 
 # - What error message (if any) is there?
 # Traceback (most recent call last):
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 41, in <module>
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 68, in <module>
 #     answer = binary_search([1, 2, 4, 5, 7], 7)
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 37, in binary_search
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 64, in binary_search
 #     return binary_search(arr, element, mid, high)
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 37, in binary_search
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 64, in binary_search
 #     return binary_search(arr, element, mid, high)
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 37, in binary_search
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 64, in binary_search
 #     return binary_search(arr, element, mid, high)
 #   [Previous line repeated 995 more times]
-#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 22, in binary_search
+#   File "/Users/alisherbegmatov/Documents/Code/Make School/Semester 2/ACS 4931 - SPD 2.31/SPD-2.3-Debugging-Steps-Lab-main/exercise-4.py", line 50, in binary_search
 #     if high == None:
 # RecursionError: maximum recursion depth exceeded in comparison
 
 # - What line number is causing the error?
-# Line 41, line 37, and line 22.
+# Line 68, line 64, and line 50.
 
 # - What can you deduce about the cause of the error?
 # It seems that the recursion function is stuck in an infinite loop, so we first print out the mid.

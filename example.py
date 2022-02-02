@@ -8,13 +8,13 @@ Use this as an example of how to work through the steps in the lesson.
 
 # Here is the stack trace we get from running the program:
 # Traceback (most recent call last):
-#   File "main.py", line 23, in <module>
+#   File "main.py", line 47, in <module>
 #     answer = find_largest_number([3, 2, 1, 5, 4])
-#   File "main.py", line 18, in find_largest_number
+#   File "main.py", line 40, in find_largest_number
 #     if list_of_nums[i] > largest_num:
 # IndexError: list index out of range
 
-# According to the stack trace, there is an IndexError on line 18. That must mean that the variable 
+# According to the stack trace, there is an IndexError on line 40. That must mean that the variable 
 # i is outside of the bounds of the list. That means we need to find out why i has a value that's
 # greater than or equal to the length of the list.
 
@@ -31,7 +31,7 @@ Use this as an example of how to work through the steps in the lesson.
 # ... continue on until you've verified that you found the cause of the bug and fixed it ...
 
 # Conclusion:
-# On the line 38, the for loop was accessing the actual value of the list instead of the index.
+# On the line 39, the for loop was accessing the actual value of the list instead of the index.
 # That is why we got the index error. To fix the problem, we change the for loop to access the index in the list.
 
 def find_largest_number(list_of_nums):
